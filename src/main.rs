@@ -78,7 +78,7 @@ async fn get_episodes(url:String) -> String {
 }
 #[get("/")]
 fn home_page() -> String {
-    String::from("It works!") // just tests to see if the deploy works
+    String::from("hello!") // just tests to see if the deploy works
 }
 #[get("/player/<link>")]
 async fn get_video_src(link:String) -> String {
